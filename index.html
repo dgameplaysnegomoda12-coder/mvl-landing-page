@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVL - Máquina de Vendas Lucrativas | Crie sua máquina de vendas automática</title>
+    <meta name="description" content="Aprenda a criar uma máquina de vendas automática que gera resultados todos os dias, mesmo começando do zero. Sem aparecer, sem vender no direct, sem precisar de seguidores.">
+    <meta name="keywords" content="máquina de vendas, vendas online, marketing digital, mentoria, renda extra, vendas automáticas">
+    <meta name="author" content="Nãymi Beatriz">
+    <meta property="og:title" content="MVL - Máquina de Vendas Lucrativas">
+    <meta property="og:description" content="Crie uma máquina de vendas todos os dias, mesmo começando do zero.">
+    <meta property="og:image" content="images/naymi.jpg">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ============================================ -->
+    <!-- FLOATING CTA MOBILE -->
+    <!-- ============================================ -->
+    <div class="floating-cta" id="floatingCta">
+        <a href="#oferta" class="btn-cta btn-cta--small">
+            QUERO COMEÇAR AGORA
+        </a>
+    </div>
+
+    <!-- ============================================ -->
+    <!-- SECTION 1: HERO -->
+    <!-- ============================================ -->
+    <section class="hero" id="hero">
+        <div class="hero__overlay"></div>
+        <div class="hero__particles" id="particles"></div>
+        <div class="container hero__content">
+            <div class="hero__text" data-animate="fade-right">
+                <div class="hero__badge">
+                    <span class="hero__badge-dot"></span>
+                    <span>🔥 Vagas abertas por tempo limitado</span>
+                </div>
+                <h1 class="hero__title">
+                    Crie uma <span class="text-gradient">máquina de vendas</span> todos os dias, mesmo <span class="text-highlight">começando do zero</span>
+                </h1>
+                <p class="hero__subtitle">
+                    Sem aparecer, sem precisar vender no direct e sem depender de seguidores
+                </p>
+                <a href="#oferta" class="btn-cta btn-cta--hero">
+                    <span>QUERO COMEÇAR AGORA</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <div class="hero__proof">
+                    <div class="hero__proof-item">
+                        <span class="hero__proof-number" data-count="850">0</span>
+                        <span class="hero__proof-label">+ alunas</span>
+                    </div>
+                    <div class="hero__proof-divider"></div>
+                    <div class="hero__proof-item">
+                        <span class="hero__proof-icon">⭐</span>
+                        <span class="hero__proof-label">Resultados reais</span>
+                    </div>
+                    <div class="hero__proof-divider"></div>
+                    <div class="hero__proof-item">
+                        <span class="hero__proof-icon">✅</span>
+                        <span class="hero__proof-label">Método validado</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__image" data-animate="fade-left">
+                <div class="hero__image-glow"></div>
+                
+                <!-- Extra floating particles behind the image -->
+                <div class="hero__image-floating-p1"></div>
+                <div class="hero__image-floating-p2"></div>
+                
+                <div class="hero__image-container">
+                    <div class="hero__image-shadow"></div>
+                    <img src="images/naymi-integrated.png" alt="Nãymi Beatriz - Mentora MVL" class="hero__image-img" loading="eager">
+                </div>
+
+                <!-- Floating Glassmorphism Badge 1 -->
+                <div class="hero__badge-glass badge-pos-1">
+                    <div class="badge-icon">💰</div>
+                    <div class="badge-content">
+                        <small>Faturamento</small>
+                        <strong>+R$ 500K</strong>
+                    </div>
+                </div>
+
+                <!-- Floating Glassmorphism Badge 2 -->
+                <div class="hero__badge-glass badge-pos-2">
+                    <div class="badge-icon">🚀</div>
+                    <div class="badge-content">
+                        <small>Estratégia</small>
+                        <strong>Validada</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__scroll-indicator">
+            <span>Descubra como</span>
+            <div class="hero__scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 2: QUEBRA DE CRENÇA -->
+    <!-- ============================================ -->
+    <section class="beliefs" id="crencas">
+        <div class="container">
+            <div class="beliefs__header" data-animate="fade-up">
+                <span class="section-tag">A verdade que ninguém te conta</span>
+                <h2 class="beliefs__title">
+                    Você <span class="text-highlight">não precisa</span> virar influencer para ganhar dinheiro na internet
+                </h2>
+            </div>
+            <div class="beliefs__grid">
+                <div class="beliefs__card" data-animate="fade-up" data-delay="100">
+                    <div class="beliefs__card-icon">
+                        <i data-lucide="video-off"></i>
+                    </div>
+                    <h3>Não precisa aparecer</h3>
+                    <p>Esqueça gravar stories todos os dias. O método funciona no modo invisível.</p>
+                </div>
+                <div class="beliefs__card" data-animate="fade-up" data-delay="200">
+                    <div class="beliefs__card-icon">
+                        <i data-lucide="calendar-x"></i>
+                    </div>
+                    <h3>Não precisa postar todo dia</h3>
+                    <p>Sem estresse com algoritmo. Sua máquina trabalha 24h por você.</p>
+                </div>
+                <div class="beliefs__card" data-animate="fade-up" data-delay="300">
+                    <div class="beliefs__card-icon">
+                        <i data-lucide="message-circle-off"></i>
+                    </div>
+                    <h3>Não precisa falar com clientes</h3>
+                    <p>Zero venda no direct. O funil faz todo o trabalho de convencer e vender.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 3: MÉTODO MVL -->
+    <!-- ============================================ -->
+    <section class="method" id="metodo">
+        <div class="container">
+            <div class="method__header" data-animate="fade-up">
+                <span class="section-tag">O método por trás dos resultados</span>
+                <h2 class="section-title">
+                    A MVL é um sistema que transforma seu <span class="text-gradient">celular</span> em uma <span class="text-gradient">máquina automática</span> de vendas
+                </h2>
+                <p class="section-subtitle">4 pilares simples. Resultados extraordinários.</p>
+            </div>
+            <div class="method__steps">
+                <div class="method__step" data-animate="fade-up" data-delay="100">
+                    <div class="method__step-number">01</div>
+                    <div class="method__step-icon">
+                        <i data-lucide="megaphone"></i>
+                    </div>
+                    <h3>Tráfego</h3>
+                    <p>Anúncios simples que atraem compradores prontos para comprar</p>
+                    <div class="method__step-connector"></div>
+                </div>
+                <div class="method__step" data-animate="fade-up" data-delay="200">
+                    <div class="method__step-number">02</div>
+                    <div class="method__step-icon">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3>Página</h3>
+                    <p>Estrutura de alta conversão que transforma visitantes em clientes</p>
+                    <div class="method__step-connector"></div>
+                </div>
+                <div class="method__step" data-animate="fade-up" data-delay="300">
+                    <div class="method__step-number">03</div>
+                    <div class="method__step-icon">
+                        <i data-lucide="package-check"></i>
+                    </div>
+                    <h3>Produto</h3>
+                    <p>Produtos validados e com alta demanda no mercado</p>
+                    <div class="method__step-connector"></div>
+                </div>
+                <div class="method__step" data-animate="fade-up" data-delay="400">
+                    <div class="method__step-number">04</div>
+                    <div class="method__step-icon">
+                        <i data-lucide="bot"></i>
+                    </div>
+                    <h3>Automação</h3>
+                    <p>Sistema que gera vendas no automático, todos os dias</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 4: BENEFÍCIOS -->
+    <!-- ============================================ -->
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <div class="benefits__header" data-animate="fade-up">
+                <span class="section-tag">O que muda na sua vida</span>
+                <h2 class="section-title">
+                    Resultados <span class="text-gradient">reais</span> para uma vida <span class="text-gradient">extraordinária</span>
+                </h2>
+            </div>
+            <div class="benefits__grid">
+                <div class="benefits__card" data-animate="fade-up" data-delay="100">
+                    <div class="benefits__card-icon">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3>Vendas todos os dias</h3>
+                    <p>Acorde com notificações de vendas no seu celular. Todos. Os. Dias.</p>
+                </div>
+                <div class="benefits__card" data-animate="fade-up" data-delay="200">
+                    <div class="benefits__card-icon">
+                        <i data-lucide="dollar-sign"></i>
+                    </div>
+                    <h3>Ganhos em dólar</h3>
+                    <p>Acesse mercados internacionais e multiplique seus ganhos com a valorização do dólar.</p>
+                </div>
+                <div class="benefits__card" data-animate="fade-up" data-delay="300">
+                    <div class="benefits__card-icon">
+                        <i data-lucide="map-pin"></i>
+                    </div>
+                    <h3>Liberdade geográfica</h3>
+                    <p>Trabalhe de qualquer lugar do mundo. Só precisa de um celular e internet.</p>
+                </div>
+                <div class="benefits__card" data-animate="fade-up" data-delay="400">
+                    <div class="benefits__card-icon">
+                        <i data-lucide="rocket"></i>
+                    </div>
+                    <h3>Escala sem seguidores</h3>
+                    <p>Seus resultados não dependem de likes. Dependem de estratégia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 5: DEPOIMENTOS -->
+    <!-- ============================================ -->
+    <section class="testimonials" id="depoimentos">
+        <div class="container">
+            <div class="testimonials__header" data-animate="fade-up">
+                <span class="section-tag">Quem já está dentro comprova</span>
+                <h2 class="section-title">
+                    Resultados <span class="text-gradient">reais</span> de alunas <span class="text-gradient">reais</span>
+                </h2>
+            </div>
+            <div class="testimonials__carousel" id="testimonialCarousel">
+                <div class="testimonials__track">
+                    <div class="testimonial-card" data-animate="fade-up" data-delay="100">
+                        <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-card__text">"Fiz minha primeira venda em apenas 3 dias seguindo o método! Eu não acreditava que era possível vender sem aparecer."</p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar">A</div>
+                            <div>
+                                <strong>Ana C.</strong>
+                                <small>Aluna MVL</small>
+                            </div>
+                        </div>
+                        <div class="testimonial-card__badge">Primeira venda em 3 dias</div>
+                    </div>
+                    <div class="testimonial-card" data-animate="fade-up" data-delay="200">
+                        <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-card__text">"Saí do zero absoluto e em menos de um mês já estava faturando. O método é simples e direto ao ponto."</p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar">M</div>
+                            <div>
+                                <strong>Mariana S.</strong>
+                                <small>Aluna MVL</small>
+                            </div>
+                        </div>
+                        <div class="testimonial-card__badge">Do zero ao faturamento</div>
+                    </div>
+                    <div class="testimonial-card" data-animate="fade-up" data-delay="300">
+                        <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-card__text">"O melhor investimento que já fiz. Método simples, funciona de verdade e o suporte é incrível!"</p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar">J</div>
+                            <div>
+                                <strong>Julia R.</strong>
+                                <small>Aluna MVL</small>
+                            </div>
+                        </div>
+                        <div class="testimonial-card__badge">Método simples e funciona</div>
+                    </div>
+                    <div class="testimonial-card" data-animate="fade-up" data-delay="400">
+                        <div class="testimonial-card__stars">⭐⭐⭐⭐⭐</div>
+                        <p class="testimonial-card__text">"Eu tinha medo de investir, mas a Nãymi me mostrou que com estratégia certa os resultados aparecem rápido."</p>
+                        <div class="testimonial-card__author">
+                            <div class="testimonial-card__avatar">P</div>
+                            <div>
+                                <strong>Patricia L.</strong>
+                                <small>Aluna MVL</small>
+                            </div>
+                        </div>
+                        <div class="testimonial-card__badge">Resultados rápidos</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 6: OFERTA -->
+    <!-- ============================================ -->
+    <section class="offer" id="oferta">
+        <div class="container">
+            <div class="offer__header" data-animate="fade-up">
+                <span class="section-tag">Tudo que você vai receber</span>
+                <h2 class="section-title">
+                    O que está incluído na <span class="text-gradient">MVL</span>
+                </h2>
+            </div>
+            <div class="offer__content">
+                <div class="offer__list" data-animate="fade-right">
+                    <div class="offer__item">
+                        <div class="offer__item-check">
+                            <i data-lucide="check-circle-2"></i>
+                        </div>
+                        <div>
+                            <h4>Método completo passo a passo</h4>
+                            <p>Do zero à primeira venda com aulas práticas e objetivas</p>
+                        </div>
+                    </div>
+                    <div class="offer__item">
+                        <div class="offer__item-check">
+                            <i data-lucide="check-circle-2"></i>
+                        </div>
+                        <div>
+                            <h4>Estrutura de funil pronta</h4>
+                            <p>Páginas, copies e estruturas validadas para você copiar e colar</p>
+                        </div>
+                    </div>
+                    <div class="offer__item">
+                        <div class="offer__item-check">
+                            <i data-lucide="check-circle-2"></i>
+                        </div>
+                        <div>
+                            <h4>Estratégia de anúncios</h4>
+                            <p>Aprenda a rodar anúncios lucrativos com pouco investimento</p>
+                        </div>
+                    </div>
+                    <div class="offer__item">
+                        <div class="offer__item-check">
+                            <i data-lucide="check-circle-2"></i>
+                        </div>
+                        <div>
+                            <h4>Produtos validados</h4>
+                            <p>Acesso a produtos que já vendem e geram comissões altas</p>
+                        </div>
+                    </div>
+                    <div class="offer__item">
+                        <div class="offer__item-check">
+                            <i data-lucide="check-circle-2"></i>
+                        </div>
+                        <div>
+                            <h4>Acompanhamento exclusivo</h4>
+                            <p>Suporte e acompanhamento para garantir seus resultados</p>
+                        </div>
+                    </div>
+                    <div class="offer__item offer__item--bonus">
+                        <div class="offer__item-check">
+                            <i data-lucide="gift"></i>
+                        </div>
+                        <div>
+                            <h4>🎁 BÔNUS: Comunidade VIP</h4>
+                            <p>Acesso à comunidade exclusiva de alunas para networking e trocas</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="offer__cta-box" data-animate="fade-left">
+                    <div class="offer__cta-box-glow"></div>
+                    <span class="offer__cta-tag">OFERTA ESPECIAL</span>
+                    <div class="offer__price">
+                        <span class="offer__price-from">De <s>R$ 997</s></span>
+                        <span class="offer__price-for">Por apenas</span>
+                        <span class="offer__price-value">12x <strong>R$ 29,70</strong></span>
+                        <span class="offer__price-cash">ou R$ 297 à vista</span>
+                    </div>
+                    <a href="#" class="btn-cta btn-cta--hero btn-cta--full">
+                        <span>QUERO ENTRAR NA MVL AGORA</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </a>
+                    <div class="offer__security">
+                        <div class="offer__security-item">
+                            <i data-lucide="shield-check"></i>
+                            <span>Compra segura</span>
+                        </div>
+                        <div class="offer__security-item">
+                            <i data-lucide="lock"></i>
+                            <span>Dados protegidos</span>
+                        </div>
+                        <div class="offer__security-item">
+                            <i data-lucide="refresh-cw"></i>
+                            <span>7 dias de garantia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 7: DIFERENCIAL / COMPARATIVO -->
+    <!-- ============================================ -->
+    <section class="comparison" id="diferencial">
+        <div class="container">
+            <div class="comparison__header" data-animate="fade-up">
+                <span class="section-tag">Por que a MVL é diferente</span>
+                <h2 class="section-title">
+                    Outras mentorias vs <span class="text-gradient">MVL</span>
+                </h2>
+            </div>
+            <div class="comparison__table" data-animate="fade-up">
+                <div class="comparison__col comparison__col--other">
+                    <div class="comparison__col-header">
+                        <i data-lucide="x-circle"></i>
+                        <h3>Outras Mentorias</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <i data-lucide="x"></i>
+                            <span>Precisa aparecer todos os dias</span>
+                        </li>
+                        <li>
+                            <i data-lucide="x"></i>
+                            <span>Venda manual no direct</span>
+                        </li>
+                        <li>
+                            <i data-lucide="x"></i>
+                            <span>Resultados demorados</span>
+                        </li>
+                        <li>
+                            <i data-lucide="x"></i>
+                            <span>Depende de seguidores</span>
+                        </li>
+                        <li>
+                            <i data-lucide="x"></i>
+                            <span>Método complicado</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="comparison__vs">VS</div>
+                <div class="comparison__col comparison__col--mvl">
+                    <div class="comparison__col-header">
+                        <i data-lucide="check-circle-2"></i>
+                        <h3>MVL</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <i data-lucide="check"></i>
+                            <span>100% automatizado</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check"></i>
+                            <span>Vendas no automático</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check"></i>
+                            <span>Resultados rápidos</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check"></i>
+                            <span>Escalável sem limite</span>
+                        </li>
+                        <li>
+                            <i data-lucide="check"></i>
+                            <span>Simples e direto</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 8: FAQ / QUEBRA DE OBJEÇÕES -->
+    <!-- ============================================ -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="faq__header" data-animate="fade-up">
+                <span class="section-tag">Tire suas dúvidas</span>
+                <h2 class="section-title">
+                    Perguntas <span class="text-gradient">frequentes</span>
+                </h2>
+            </div>
+            <div class="faq__list" data-animate="fade-up">
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        <span>Preciso ter experiência?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p><strong>Não!</strong> O método MVL foi criado especialmente para iniciantes. Você vai aprender tudo do zero, passo a passo, de forma simples e prática. A maioria das nossas alunas começou sem saber nada.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        <span>Preciso investir muito para começar?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p><strong>Não!</strong> Você pode começar com um investimento pequeno em anúncios (a partir de R$ 10/dia). O método te ensina a investir de forma inteligente para ter o máximo de retorno.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        <span>Funciona para iniciantes?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p><strong>Sim!</strong> Na verdade, iniciantes muitas vezes têm melhores resultados porque não carregam vícios de outros métodos. O passo a passo é feito justamente para quem está começando do zero.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        <span>Quanto tempo até ter resultados?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Depende da sua dedicação, mas muitas alunas conseguem suas primeiras vendas nos primeiros <strong>7 a 14 dias</strong>. O método é focado em ação rápida e resultados mensuráveis.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        <span>Preciso aparecer em vídeo?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p><strong>Não!</strong> Esse é um dos grandes diferenciais da MVL. Você não precisa aparecer, gravar stories ou ser influenciadora digital. O sistema funciona de forma 100% invisível.</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <button class="faq__question" aria-expanded="false">
+                        <span>E se não funcionar para mim?</span>
+                        <i data-lucide="chevron-down"></i>
+                    </button>
+                    <div class="faq__answer">
+                        <p>Você tem <strong>7 dias de garantia incondicional</strong>. Se por qualquer motivo sentir que não é para você, basta solicitar o reembolso e devolvemos 100% do seu investimento. Risco zero.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 9: GARANTIA -->
+    <!-- ============================================ -->
+    <section class="guarantee" id="garantia">
+        <div class="container">
+            <div class="guarantee__content" data-animate="fade-up">
+                <div class="guarantee__badge">
+                    <img src="images/garantia.png" alt="Selo de Garantia de 7 dias" loading="lazy">
+                </div>
+                <div class="guarantee__text">
+                    <h2>Garantia <span class="text-gradient">incondicional</span> de 7 dias</h2>
+                    <p>
+                        Se dentro de 7 dias você sentir que a MVL não é para você, basta enviar um e-mail e devolvemos <strong>100% do seu investimento</strong>. Sem perguntas, sem burocracia. O risco é todo nosso.
+                    </p>
+                    <p class="guarantee__highlight">
+                        Ou você lucra, ou recebe seu dinheiro de volta. Simples assim.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 10: ESCASSEZ -->
+    <!-- ============================================ -->
+    <section class="scarcity" id="escassez">
+        <div class="container">
+            <div class="scarcity__content" data-animate="fade-up">
+                <div class="scarcity__icon">
+                    <i data-lucide="alarm-clock"></i>
+                </div>
+                <h2>⚠️ Vagas <span class="text-highlight">limitadas</span> para acompanhamento</h2>
+                <p>Para garantir a qualidade do suporte e acompanhamento individual, abrimos apenas um número limitado de vagas por turma. Quando as vagas acabarem, não haverá exceção.</p>
+                <div class="scarcity__counter">
+                    <div class="scarcity__counter-item">
+                        <span class="scarcity__counter-number" id="vagasCount">12</span>
+                        <span class="scarcity__counter-label">vagas restantes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- SECTION 11: CTA FINAL -->
+    <!-- ============================================ -->
+    <section class="final-cta" id="cta-final">
+        <div class="final-cta__bg"></div>
+        <div class="container">
+            <div class="final-cta__content" data-animate="fade-up">
+                <h2>
+                    Ou você continua tentando…<br>
+                    ou <span class="text-gradient">começa agora</span> a construir sua <span class="text-gradient">máquina de vendas</span>
+                </h2>
+                <p>A decisão é sua. Mas lembre: quem age primeiro, colhe primeiro.</p>
+                <a href="#" class="btn-cta btn-cta--hero btn-cta--final">
+                    <span>QUERO ENTRAR NA MVL AGORA</span>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <div class="final-cta__trust">
+                    <span>🔒 Compra 100% segura</span>
+                    <span>✅ Acesso imediato</span>
+                    <span>💰 7 dias de garantia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- FOOTER -->
+    <!-- ============================================ -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 MVL - Máquina de Vendas Lucrativas. Todos os direitos reservados.</p>
+            <p class="footer__disclaimer">Este site não faz parte do Facebook, Google ou qualquer outra plataforma. Os resultados apresentados são de alunas reais, mas podem variar de pessoa para pessoa.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
