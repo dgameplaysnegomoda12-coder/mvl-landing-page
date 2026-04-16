@@ -446,9 +446,9 @@ ul, ol {
     width: 100%;
     max-width: 500px;
     z-index: 2;
-    /* Smooth bottom fade to hide hard cutouts */
-    -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 98%);
-    mask-image: linear-gradient(to bottom, black 70%, transparent 98%);
+    /* Soften all edges (top, sides, bottom) to blend the square image background perfectly */
+    -webkit-mask-image: radial-gradient(circle at 50% 40%, black 50%, transparent 75%);
+    mask-image: radial-gradient(circle at 50% 40%, black 50%, transparent 75%);
 }
 
 .hero__image-img {
